@@ -33,7 +33,7 @@ FUBARINOBIG     = sys/pic32/fubarino/FUBARINO-UART2CONS-UART1-SRAMC
 MMBMX7          = sys/pic32/mmb-mx7/MMB-MX7
 
 # Select target board
-TARGET          ?= $(MAX32)
+TARGET          ?= $(FUBARINO)
 
 # Filesystem and swap sizes.
 FS_KBYTES       = 102400
@@ -50,7 +50,7 @@ SWAP_KBYTES     = 2048
 # C library options: passed to libc makefile.
 # See lib/libc/Makefile for explanation.
 #
-DEFS		=
+DEFS		= 
 
 FSUTIL		= tools/fsutil/fsutil
 

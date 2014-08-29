@@ -4,13 +4,13 @@ core pic32mx7
 mapping fubarino
 linker bootloader
 
-device kernel led=21 cpu_khz=80000 bus_khz=80000
+device kernel led=A6 cpu_khz=80000 bus_khz=80000
 device console device=ttyUSB0
 device uartusb
-device sd0 port=2 cs=SS
+device sd0 port=2 cs=4
 device adc
 device glcd
 device oc
 device gpio
 
-device bootloader led=21 button=23 crystal=8 jump=0x9d000000
+device bootloader led=A5 button=6 crystal=8 jump=0x9d000000
