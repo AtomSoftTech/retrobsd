@@ -31,9 +31,10 @@ RETROONE        = sys/pic32/retroone/RETROONE
 FUBARINO        = sys/pic32/fubarino/FUBARINO
 FUBARINOBIG     = sys/pic32/fubarino/FUBARINO-UART2CONS-UART1-SRAMC
 MMBMX7          = sys/pic32/mmb-mx7/MMB-MX7
+ATOM32          = sys/pic32/atom32/ATOM32
 
 # Select target board
-TARGET          ?= $(FUBARINO)
+TARGET          ?= $(ATOM32)
 
 # Filesystem and swap sizes.
 FS_KBYTES       = 102400
